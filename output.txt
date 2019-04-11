@@ -1,0 +1,74 @@
+/zyme_shared/nas_apps/zyme_apps/deploy_101/AWB_td/logs4demo/TrueData_app.log
+/zyme_shared/nas_apps/zyme_apps/deploy_101/AWB_td/logs4demo/TrueData_app.log-2017-10-06.0.zip
+/zyme_shared/nas_apps/zyme_apps/deploy_101/AWB_td/logs4demo/TrueData_app.log
+ 
+Archive:  /zyme_shared/nas_apps/zyme_apps/deploy_101/AWB_td/logs4demo/TrueData_app.log-2017-10-06.0.zip
+  inflating: /zyme_shared/nas_apps/zyme_apps/deploy_101/AWB_td/demo/Temp/TrueData_app_Temp/TrueData_app.log-2017-10-06.0  
+ 2017-10-10_05:39:46.393 [ajp-nio-9692-exec-7] INFO  cvisLogger - ZYMETEST/shshetty:COMPLIANCESCORE MasterData is Started User is: shshetty
+ 
+ 2017-10-10_05:39:47.603 [ajp-nio-9692-exec-7] INFO  cvisLogger - ZYMETEST/shshetty:batchId: 0 batchStartTime: Tue Oct 10 05:39:47 CDT 2017
+ 
+ 2017-10-10_05:35:31.344 [ajp-nio-9692-exec-5] INFO  cvisLogger - User: shshetty has choosen the Client :: ZYMETEST
+ 
+ 2017-10-10_05:36:37.856 [ajp-nio-9692-exec-9] INFO  cvisLogger - File Upload done
+ 
+ 2017-10-10_05:36:38.922 [ajp-nio-9692-exec-9] INFO  cvisLogger - ZYMETEST/shshetty:TIMELINESSTRACKER MasterData is Started User is: shshetty
+ 
+ 2017-10-10_05:36:41.582 [ajp-nio-9692-exec-9] INFO  cvisLogger - ZYMETEST/shshetty:TIMELINESSTRACKER MasterData is loaded BathchId: 13 TemplateName: TimelinessTracker Totaltime: 2 seconds
+ 
+ 2017-10-10_05:36:42.795 [ajp-nio-9692-exec-9] INFO  cvisLogger - Notify Message For Master Data Load:{"batchId":13,"attributes":null,"fileName":"13-Timeliness_master_ZYMETEST.xls","status":"SUCCESS","clientName":"ZYMETEST","masterData":"TIMELINESS TRACKER","uploadMethod":"Manual"}
+ 
+ 2017-10-10_05:39:45.550 [ajp-nio-9692-exec-7] INFO  cvisLogger - File Upload done
+ 
+ 2017-10-10_05:39:46.393 [ajp-nio-9692-exec-7] INFO  cvisLogger - ZYMETEST/shshetty:COMPLIANCESCORE MasterData is Started User is: shshetty
+ 
+ 2017-10-10_05:39:47.603 [ajp-nio-9692-exec-7] INFO  cvisLogger - ZYMETEST/shshetty:batchId: 0 batchStartTime: Tue Oct 10 05:39:47 CDT 2017
+ 
+         at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:789)
+ 
+         at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+ 
+    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ 
+          at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ 
+          at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ 
+          at java.lang.Thread.run(Thread.java:745)
+ 
+          at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ 
+          at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ 
+          at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ 
+          at java.lang.Thread.run(Thread.java:745)
+ 
+  
+  
+  
+  
+  
+  
+         at org.springframework.orm.ibatis.SqlMapClientTemplate.execute(SqlMapClientTemplate.java:203)
+ 
+         ... 102 more
+ 
+         at org.springframework.orm.ibatis.SqlMapClientTemplate.execute(SqlMapClientTemplate.java:203)
+ 
+         ... 102 more
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+messge txt is :DuplicateKeyException: SqlMapClient operation; SQL []; Duplicate entry '2' for key 'PRIMARY'; nested exception is java.sql.BatchUpdateExce 
+{"balance":6,"batch_id":311499999,"cost":1,"num_messages":1,"message":{"num_parts":1,"sender":"","content":"DuplicateKeyException: SqlMapClient operation; SQL (); Duplicate entry \\'2\\' for key \\'PRIMARY\\'; nested exception is java.sql.BatchUpdateExce"},"receipt_url":"","custom":"","messages":[{"id":"1222960776","recipient":919972420386}],"status":"success"} 
+JIRA ticket has been created successfully
+Script execution time took 7 seconds
